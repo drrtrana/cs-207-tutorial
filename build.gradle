@@ -68,12 +68,12 @@ checkstyleTest {
 
 task runAddNums(dependsOn: 'classes') {
     doFirst() {
-        println Calculator.addNums(n as Integer)
+        println Calculator.addNums(x as Integer, y as Integer)
     }
 }
 
 task runSubtractNums(dependsOn: 'classes') {
     doFirst() {
-        println Calculator.subtractNums(n as Integer)
+        println Calculator.subtractNums(x as Integer, y as Integer)
     }
 }
