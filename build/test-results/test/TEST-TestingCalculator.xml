@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestingCalculator" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-12-12T01:11:42" hostname="LAPTOP-S5H7EGFA" time="0.257">
+  <properties/>
+  <testcase name="addNumsShouldReturn6()" classname="TestingCalculator" time="0.253"/>
+  <testcase name="subtractNumsShouldReturn2()" classname="TestingCalculator" time="0.0"/>
+  <testcase name="subtractNumsShouldReturn4()" classname="TestingCalculator" time="0.001"/>
+  <testcase name="addNumsShouldReturn28()" classname="TestingCalculator" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
