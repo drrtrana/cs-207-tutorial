@@ -24,8 +24,6 @@ java {
     }
 }
 
-
-
 repositories {
     mavenCentral()
 }
@@ -47,11 +45,13 @@ dependencies {
 def configDir = "${project.rootDir}/config"
 
 pmdMain {
+    ruleSets = []
     ruleSetFiles = files("$configDir/pmd.xml")
     source ='src/main/java'
 }
 
 pmdTest {
+    ruleSets = []
     ruleSetFiles = files("$configDir/pmd.xml")
     source ='src/test/java'
 }
@@ -64,16 +64,4 @@ checkstyleMain {
 checkstyleTest {
     configFile file("$configDir/checkstyle.xml")
     source ='src/test/java'
-}
-
-task runAddNums(dependsOn: 'classes') {
-    doFirst() {
-        println Calculator.addNums(x as Integer, y as Integer)
-    }
-}
-
-task runSubtractNums(dependsOn: 'classes') {
-    doFirst() {
-        println Calculator.subtractNums(x as Integer, y as Integer)
-    }
 }
