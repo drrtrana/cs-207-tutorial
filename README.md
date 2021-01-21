@@ -2,6 +2,8 @@
 
 **Getting Started**
 
+**THIS WAS A CHANGE AFTER STUDENTS HAVE CLONED THE REPO AND COMMITED CODE!!**
+
 **1.** For this course, please download IntelliJ IDEA Ultimate and Java version 11 or higher. You will need to sign up using your NEIU email to access the downloads.
 - For IntelliJ, you can either download and install the IDE directly or download JetBrains Toolbox.
     - Just the IDE: https://www.jetbrains.com/idea/download/#section=windows
